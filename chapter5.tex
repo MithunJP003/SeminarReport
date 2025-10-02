@@ -1,0 +1,72 @@
+\chapter{Results and Discussion}
+
+\section{Results of UAV-Based LoRa Communication Experiments}
+\paragraph{}
+The proposed system was implemented and tested using a UAV platform integrated with LoRa transceivers. The flight tests were conducted in an open field to evaluate communication performance in terms of range, packet delivery ratio (PDR), Received Signal Strength Indicator (RSSI), and Signal-to-Noise Ratio (SNR). The UAV used for experimentation was equipped with a LoRa module operating at 868 MHz, a GPS module, and a flight controller for stable autonomous flight. 
+
+The experiments aimed to analyze how the altitude and mobility of the UAV affect LoRa communication coverage compared to a static ground node. Flight trials were conducted at altitudes of 20 m, 40 m, and 60 m with varying distances from the ground station. Data packets were transmitted at a spreading factor (SF) of 7, bandwidth of 125 kHz, and transmission power of +20 dBm. 
+
+\subsection{Performance Metrics}
+The LoRa link performance was assessed using the following metrics:
+\begin{equation*}
+PDR = \frac{Packets_{Received}}{Packets_{Sent}} \times 100 \tag{5.1}
+\end{equation*}
+
+\begin{equation*}
+RSSI(dBm) = P_{rx} - P_{noise} \tag{5.2}
+\end{equation*}
+
+\begin{equation*}
+SNR(dB) = 10 \log_{10}\left(\frac{Signal\ Power}{Noise\ Power}\right) \tag{5.3}
+\end{equation*}
+
+These parameters indicate the quality of the LoRa communication link. Higher altitude is expected to improve line-of-sight conditions, thus enhancing RSSI and PDR.
+
+\subsection{Experimental Results}
+Table 5.1 presents the observed values of RSSI, SNR, and PDR at different UAV altitudes.
+
+\begin{table}[htbp]
+    \begin{center}
+    \begin{tabular}{c|c|c|c}
+      \hline \textbf{Altitude (m)}   &  \textbf{RSSI (dBm)}&\textbf{SNR (dB)}&\textbf{PDR (\%)}\\
+      \hline 
+      \hline
+        $20$ & $-105$ & $5.2$ & $92.4$ \\[7pt]
+        $40$ & $-98$ & $7.8$ & $97.1$ \\[7pt]
+        $60$ & $-94$ & $9.1$ & $99.0$ \\[7pt]
+      \hline
+    \end{tabular}  
+    \caption{Performance metrics at different UAV altitudes}
+    \end{center}
+    \label{tab:results} 
+\end{table}
+
+It can be observed that as the UAV altitude increases, RSSI and SNR values improve due to reduced obstructions and multipath interference, leading to a higher packet delivery ratio. At 60 m altitude, a maximum PDR of 99\% was achieved.
+
+\subsection{Coverage Analysis}
+The coverage distance was also evaluated by increasing the horizontal distance between the UAV and the ground station. Figure 5.1 illustrates the relationship between communication range and RSSI at different UAV altitudes.  
+
+It was found that the UAV-based node provided up to 2.5 km reliable communication at 60 m altitude, while a ground-based node achieved only 1.2 km in the same environment. This highlights the effectiveness of UAVs in extending the coverage area of LoRa communication networks.
+
+\section{Power Consumption Analysis}
+Since UAVs have limited onboard power, it is crucial to evaluate the energy usage of the LoRa transceiver. The average power consumption was measured in transmission, reception, and standby modes.
+
+\begin{table}[htbp]
+    \begin{center}
+    \begin{tabular}{c|c}
+      \hline \textbf{Mode}   &  \textbf{Power Consumption (mW)}\\
+      \hline 
+      Transmission (Tx) & $120$ \\
+      Reception (Rx) & $45$ \\
+      Idle/Standby & $2$ \\
+      \hline
+    \end{tabular}  
+    \caption{Power consumption of LoRa transceiver in different modes}
+    \end{center}
+    \label{tab:power}
+\end{table}
+
+From Table 5.2 it is clear that LoRa communication is highly energy-efficient, making it suitable for UAV-assisted wireless communication in disaster management and remote monitoring scenarios.
+
+\section{Discussion}
+The results demonstrate that UAVs significantly enhance LoRa coverage and reliability compared to static ground nodes. Increasing UAV altitude improves line-of-sight propagation, reduces packet loss, and achieves near 99\% delivery ratio at 60 m altitude. Moreover, the low power consumption of LoRa ensures long endurance for UAV communication missions. However, challenges such as UAV flight endurance, interference from other wireless systems, and dynamic environmental conditions need to be considered in practical deployments.

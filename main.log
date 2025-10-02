@@ -1,0 +1,559 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.11.29)  9 SEP 2025 13:01
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03>
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@chapter=\count178
+\c@section=\count179
+\c@subsection=\count180
+\c@subsubsection=\count181
+\c@paragraph=\count182
+\c@subparagraph=\count183
+\c@figure=\count184
+\c@table=\count185
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/01/26 3.53 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/01/26 3.53 Babel common definitions
+\babel@savecnt=\count186
+\U@D=\dimen139
+\l@babelnohyphens=\language7
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count187
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@british = using hyphenrules for english
+(babel)             (\language0) on input line 82.
+Package babel Info: \l@UKenglish = using hyphenrules for english
+(babel)             (\language0) on input line 83.
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for english
+(babel)             (\language0) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for english
+(babel)             (\language0) on input line 108.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen140
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen141
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count188
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count189
+\leftroot@=\count190
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count191
+\DOTSCASE@=\count192
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen142
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count193
+\c@MaxMatrixCols=\count194
+\dotsspace@=\muskip16
+\c@parentequation=\count195
+\dspbrk@lvl=\count196
+\tag@help=\toks18
+\row@=\count197
+\column@=\count198
+\maxfields@=\count199
+\andhelp@=\toks19
+\eqnshift@=\dimen143
+\alignsep@=\dimen144
+\tagshift@=\dimen145
+\tagwidth@=\dimen146
+\totwidth@=\dimen147
+\lineht@=\dimen148
+\@envbody=\toks20
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (./fancyhdr.sty
+\fancy@headwidth=\skip52
+\f@ncyO@elh=\skip53
+\f@ncyO@erh=\skip54
+\f@ncyO@olh=\skip55
+\f@ncyO@orh=\skip56
+\f@ncyO@elf=\skip57
+\f@ncyO@erf=\skip58
+\f@ncyO@olf=\skip59
+\f@ncyO@orf=\skip60
+)
+\@indexfile=\write3
+\openout3 = `main.idx'.
+
+Writing index file main.idx
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count266
+\l__pdf_internal_box=\box49
+)
+(./main.aux (./frontmatter.aux) (./ackmowledgment.aux) (./abstract.aux)
+(./chapter1.aux) (./chapter2.aux) (./chapter3.aux
+
+LaTeX Warning: Label `pm' multiply defined.
+
+
+LaTeX Warning: Label `pm' multiply defined.
+
+
+LaTeX Warning: Label `pm' multiply defined.
+
+
+LaTeX Warning: Label `pm' multiply defined.
+
+
+LaTeX Warning: Label `pm' multiply defined.
+
+
+LaTeX Warning: Label `pm' multiply defined.
+
+) (./chapter4.aux) (./chapter5.aux
+
+LaTeX Warning: Label `fig:perceptronoutnoactn' multiply defined.
+
+
+LaTeX Warning: Label `fig:perceptronoutnoactn' multiply defined.
+
+
+LaTeX Warning: Label `fig:perceptronoutnoactn' multiply defined.
+
+
+LaTeX Warning: Label `fig:perceptronoutnoactn' multiply defined.
+
+
+LaTeX Warning: Label `fig:perceptronoutnoactn' multiply defined.
+
+) (./chapter6.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count267
+\scratchdimen=\dimen151
+\scratchbox=\box50
+\nofMPsegments=\count268
+\nofMParguments=\count269
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count270
+\MPscratchDim=\dimen152
+\MPnumerator=\count271
+\makeMPintoPDFobject=\count272
+\everyMPtoPDFconversion=\toks24
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\openout2 = `frontmatter.aux'.
+
+
+(./frontmatter.tex
+<logo.png, id=1, 197.98969pt x 194.97844pt>
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 26.
+(pdftex.def)             Requested size: 149.38008pt x 147.10814pt.
+ [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>]
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 43.
+(pdftex.def)             Requested size: 101.5776pt x 100.0327pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1])
+\openout2 = `ackmowledgment.aux'.
+
+
+No file ackmowledgment.tex.
+\openout2 = `abstract.aux'.
+
+(./abstract.tex) [1
+
+
+
+
+
+
+] (./main.toc)
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [2
+
+
+
+] (./main.lof)
+\tf@lof=\write5
+\openout5 = `main.lof'.
+
+ [3
+
+] (./main.lot)
+\tf@lot=\write6
+\openout6 = `main.lot'.
+
+ [4
+
+]
+\openout2 = `chapter1.aux'.
+
+
+(./chapter1.tex
+Chapter 1.
+[1
+
+
+] [2]) [3]
+\openout2 = `chapter2.aux'.
+
+ (./chapter2.tex
+Chapter 2.
+) [4
+
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.05003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]
+\openout2 = `chapter3.aux'.
+
+ (./chapter3.tex
+Chapter 3.
+<methodology.jpg, id=46, 843.15pt x 686.565pt>
+File: methodology.jpg Graphic file (type jpg)
+<use methodology.jpg>
+Package pdftex.def Info: methodology.jpg  used on input line 7.
+(pdftex.def)             Requested size: 429.01018pt x 355.20349pt.
+
+Overfull \hbox (39.01018pt too wide) in paragraph at lines 7--8
+ [][] 
+ []
+
+
+Overfull \hbox (5.6445pt too wide) in paragraph at lines 4--10
+\OT1/cmr/m/n/12 The method-ol-ogy mainly con-sists of col-lec-tion of datasets,
+ data pre-processing,
+ []
+
+<download (8).png, id=47, 216.05719pt x 219.82124pt>
+File: download (8).png Graphic file (type png)
+<use download (8).png>
+Package pdftex.def Info: download (8).png  used on input line 16.
+(pdftex.def)             Requested size: 272.99881pt x 277.78458pt.
+<wafer defects.png, id=49, 617.30624pt x 560.8453pt>
+File: wafer defects.png Graphic file (type png)
+<use wafer defects.png>
+Package pdftex.def Info: wafer defects.png  used on input line 21.
+(pdftex.def)             Requested size: 351.00163pt x 355.20001pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6
+
+
+
+
+] [7 <./methodology.jpg>] [8 <./download (8).png>]
+<Basic cnn.jpg, id=61, 1284.8pt x 664.4825pt>
+File: Basic cnn.jpg Graphic file (type jpg)
+<use Basic cnn.jpg>
+Package pdftex.def Info: Basic cnn.jpg  used on input line 36.
+(pdftex.def)             Requested size: 389.99121pt x 236.80038pt.
+ [9 <./wafer defects.png>]
+[10 <./Basic cnn.jpg>]
+<IMG-20220705-WA0017.jpg, id=69, 1284.8pt x 629.35126pt>
+File: IMG-20220705-WA0017.jpg Graphic file (type jpg)
+<use IMG-20220705-WA0017.jpg>
+Package pdftex.def Info: IMG-20220705-WA0017.jpg  used on input line 54.
+(pdftex.def)             Requested size: 429.00406pt x 224.96255pt.
+
+Overfull \hbox (39.00406pt too wide) in paragraph at lines 54--55
+ [][] 
+ []
+
+[11] [12 <./IMG-20220705-WA0017.jpg>]
+Overfull \hbox (4.3038pt too wide) in paragraph at lines 64--64
+[]\OT1/cmr/bx/n/17.28 Multiplierless con-vo-lu-tion us-ing CORDIC 
+ []
+
+[13]
+<conv flow.png, id=86, 1075.6185pt x 603.4545pt>
+File: conv flow.png Graphic file (type png)
+<use conv flow.png>
+Package pdftex.def Info: conv flow.png  used on input line 84.
+(pdftex.def)             Requested size: 389.9961pt x 207.20677pt.
+<mod pe unit.png, id=87, 847.968pt x 431.211pt>
+File: mod pe unit.png Graphic file (type png)
+<use mod pe unit.png>
+Package pdftex.def Info: mod pe unit.png  used on input line 88.
+(pdftex.def)             Requested size: 448.50223pt x 236.79831pt.
+
+Overfull \hbox (58.50223pt too wide) in paragraph at lines 88--89
+[][] 
+ []
+
+) [14 <./conv flow.png>] [15 <./mod pe unit.png>]
+\openout2 = `chapter4.aux'.
+
+ (./chapter4.tex
+Chapter 4.
+[16
+
+
+
+
+] [17] [18]
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 \item Register−
+                      Transfer Level
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+<FPGA DESIGN FLOW.png, id=104, 466.74374pt x 370.38374pt>
+File: FPGA DESIGN FLOW.png Graphic file (type png)
+<use FPGA DESIGN FLOW.png>
+Package pdftex.def Info: FPGA DESIGN FLOW.png  used on input line 62.
+(pdftex.def)             Requested size: 303.37984pt x 240.74657pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19] [20 <./FPGA DESIGN FLOW.png>]) [21]
+\openout2 = `chapter5.aux'.
+
+ (./chapter5.tex
+Chapter 5.
+[22
+
+
+
+
+]
+<Screenshot (167).png, id=119, 560.8453pt x 402.00188pt>
+File: Screenshot (167).png Graphic file (type png)
+<use Screenshot (167).png>
+Package pdftex.def Info: Screenshot (167).png  used on input line 53.
+(pdftex.def)             Requested size: 389.99602pt x 295.99841pt.
+ [23] [24 <./Screenshot (167).png>]
+<Screenshot (161).png, id=126, 944.02687pt x 483.30562pt>
+File: Screenshot (161).png Graphic file (type png)
+<use Screenshot (161).png>
+Package pdftex.def Info: Screenshot (161).png  used on input line 93.
+(pdftex.def)             Requested size: 350.99863pt x 236.7997pt.
+<Screenshot (162).png, id=127, 950.04938pt x 477.28313pt>
+File: Screenshot (162).png Graphic file (type png)
+<use Screenshot (162).png>
+Package pdftex.def Info: Screenshot (162).png  used on input line 100.
+(pdftex.def)             Requested size: 350.99089pt x 236.79115pt.
+<Screenshot (155).png, id=128, 826.58812pt x 495.35063pt>
+File: Screenshot (155).png Graphic file (type png)
+<use Screenshot (155).png>
+Package pdftex.def Info: Screenshot (155).png  used on input line 107.
+(pdftex.def)             Requested size: 350.9989pt x 236.79813pt.
+
+Overfull \hbox (1.53204pt too wide) in paragraph at lines 110--111
+\OT1/cmr/m/n/12 b11=0.1, b12=0.2, b13=0.3, b21=0.1, b22=0.2, b23=0.33, b31=0.1,
+ b32=0.2,
+ []
+
+
+Overfull \hbox (12.89026pt too wide) in paragraph at lines 110--111
+\OT1/cmr/m/n/12 b33=0.3 .Sin 6= 0.1, there-fore the cor-re-spond-ing di-rec-tio
+n se-quence is 01011100.
+ []
+
+<Screenshot (159).png, id=129, 934.99312pt x 468.24937pt>
+File: Screenshot (159).png Graphic file (type png)
+<use Screenshot (159).png>
+Package pdftex.def Info: Screenshot (159).png  used on input line 118.
+(pdftex.def)             Requested size: 350.9925pt x 236.7963pt.
+[25 <./Screenshot (161).png>] [26 <./Screenshot (162).png> <./Screenshot (155).
+png>]
+<Screenshot (152).png, id=137, 1136.74687pt x 491.58656pt>
+File: Screenshot (152).png Graphic file (type png)
+<use Screenshot (152).png>
+Package pdftex.def Info: Screenshot (152).png  used on input line 126.
+(pdftex.def)             Requested size: 351.00026pt x 236.79898pt.
+) [27 <./Screenshot (159).png>] [28 <./Screenshot (152).png>]
+\openout2 = `chapter6.aux'.
+
+
+(./chapter6.tex
+Chapter 6.
+) [29
+
+
+
+
+] (./main.bbl
+Underfull \hbox (badness 1642) in paragraph at lines 25--29
+[]\OT1/cmr/m/sc/12 Erman, J., Ger-ber, A., Ha-ji-aghayi, M., Pei, D., and
+ []
+
+[30
+
+
+
+]) [31] (./main.aux (./frontmatter.aux) (./ackmowledgment.aux)
+(./abstract.aux) (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
+(./chapter4.aux) (./chapter5.aux) (./chapter6.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3523 strings out of 481176
+ 47529 string characters out of 5914225
+ 345836 words of memory out of 5000000
+ 20355 multiletter control sequences out of 15000+600000
+ 414499 words of font info for 67 fonts, out of 8000000 for 9000
+ 59 hyphenation exceptions out of 8191
+ 68i,11n,74p,1769b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/sajeev/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.60
+0pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (37 pages, 1381252 bytes).
+PDF statistics:
+ 211 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+

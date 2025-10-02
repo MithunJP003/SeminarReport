@@ -1,0 +1,72 @@
+\begin{thebibliography}{10}
+
+\bibitem{aggarwal1999cww}
+{\sc Aggarwal, C., Wolf, J., Yu, P., Center, I., and Heights, Y.}
+\newblock {Caching on the world wide web}.
+\newblock vol.~11, pp.~94--107.
+
+\bibitem{bianchini02pagerank}
+{\sc Bianchini, M., Gori, M., and Scarselli, F.}
+\newblock Pagerank: A circuital analysis, 2002.
+
+\bibitem{crov}
+{\sc Crov`ella, M.~E., and Bestavros, A.}
+\newblock Self-similarity in {World Wide Web} traffic: evidence and possible
+  causes.
+\newblock {\em IEEE \slash ACM Transactions on Networking 5}, 6 (1997),
+  835--846.
+
+\bibitem{agresti1990cda}
+{\sc Devika, A., and Wiley, J.}
+\newblock {\em {Categorical data analysis}}, 2nd~ed., vol.~1.
+\newblock Wiley New York, 1990.
+
+\bibitem{erman2009network}
+{\sc Erman, J., Gerber, A., Hajiaghayi, M., Pei, D., and Spatscheck, O.}
+\newblock {Network-aware forward caching}.
+\newblock In {\em Proceedings of the 18th international conference on World
+  wide web\/} (2009), ACM New York, NY, USA, pp.~291--300.
+
+\bibitem{et-impact}
+{\sc et~de l’Informatique, A., and Kairouan, T.}
+\newblock {Impact of One-Timer/N-Timer Object Classification on the Performance
+  of Web Cache Replacement Algorithms}.
+
+\bibitem{karagiannis02longrange}
+{\sc Karagiannis, T., Faloutsos, M., and Riedi, R.}
+\newblock Longrange dependence: now you see it, now you don't, 2002.
+
+\bibitem{kettani02novel}
+{\sc Kettani, H.}
+\newblock A novel approach to the estimation of the long-range dependence
+  parameter, 2002.
+
+\bibitem{kilfoil2003toward}
+{\sc Kilfoil, M., Ghorbani, A., Xing, W., Lei, Z., Lu, J., Zhang, J., and Xu,
+  X.}
+\newblock {Toward an adaptive web: The state of the art and science}.
+\newblock In {\em Proceedings of Communication Network and Services Research
+  (CNSR) 2003 Conference}, Citeseer, pp.~108--119.
+
+\bibitem{lin2009web}
+{\sc Lin, S., Gao, Z., and Xu, K.}
+\newblock {Web 2.0 traffic measurement: analysis on online map applications}.
+\newblock In {\em Proceedings of the 18th international workshop on Network and
+  operating systems support for digital audio and video\/} (2009), ACM New
+  York, NY, USA, pp.~7--12.
+
+\bibitem{lu2002adaptive}
+{\sc Lu, Y., Abdelzaher, T., Lu, C., and Tao, G.}
+\newblock {An adaptive control framework for QoS guarantees and its application
+  to differentiated caching services}.
+\newblock In {\em International Workshop on Quality of Service (IWQoS)\/}
+  (2002), Citeseer, pp.~23--32.
+
+\bibitem{wang2003mining}
+{\sc Wang, H., Fan, W., Yu, P., and Han, J.}
+\newblock {Mining concept-drifting data streams using ensemble classifiers}.
+\newblock In {\em Proceedings of the ninth ACM SIGKDD international conference
+  on Knowledge discovery and data mining\/} (2003), ACM New York, NY, USA,
+  pp.~226--235.
+
+\end{thebibliography}

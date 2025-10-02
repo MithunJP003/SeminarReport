@@ -1,0 +1,21 @@
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Block schematic of the proposed method}}{7}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Visualization of dataset distribution}}{8}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Nine wafer defects in dataset[1]}}{9}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Basic CNN}}{10}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Proposed CNN model}}{12}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Nine PEs for $3\times 3$ input and kernel }}{14}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces CORDIC based PE }}{15}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces FPGA design flow.}}{20}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Confusion Matrix}}{24}{}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Simulation results of CORDIC based convolution}}{25}{}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Simulation results of CORDIC based convolution}}{26}{}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces RTL schematic of of CORDIC based convolution}}{26}{}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Simulation Results of multiplier based convolution}}{27}{}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces RTL schematic of multiplier based convolution}}{28}{}%
+\addvspace {10\p@ }

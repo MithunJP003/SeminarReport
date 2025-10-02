@@ -1,0 +1,60 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+%\usepackage{citesort}
+%\usepackage{lipsum}
+\usepackage{fancyhdr}
+\pagestyle{plain}
+\lhead{\textit{UAV BASED LORA COMMUNICATION}}
+\rhead{}
+\lfoot{\textit{Dept. of ECE, RIT Kottayam}}
+\renewcommand{\headrulewidth}{0.07pt}
+\renewcommand{\footrulewidth}{0.4pt}
+%\usepackage{hyperref}
+%\usepackage{epsfig}
+%\usepackage{makeidx}
+\makeindex
+
+\begin{document}
+\pagenumbering{roman}
+\include{frontmatter}
+\addcontentsline{toc}{chapter}{Acknowledgment}
+\include{ackmowledgment}
+\addcontentsline{toc}{chapter}{Abstract}
+\include{abstract}
+
+\tableofcontents
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+\include{chapter1}
+\include{chapter2}
+\include{chapter3}
+\include{chapter4}
+\include{chapter5}
+\include{chapter6}
+
+% Add bibliography to table of contents and print references
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{acm}
+\bibliography{ref.bib}
+
+%\newpage
+%\addcontentsline{toc}{section}{\textbf{Appendix}}
+
+%% \include{Appendix}
+%\input{Appendix}
+%% \input{ap2}
+%  \addcontentsline{toc}{chapter}{Bibiliography}
+%  \include{reference}
+
+%\addcontentsline{toc}{chapter}{References}
+%\newpage
+%\addcontentsline{toc}{section}{\textbf{Index}}
+%\printindex
+\end{document}

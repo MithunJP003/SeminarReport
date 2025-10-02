@@ -1,0 +1,48 @@
+\chapter{Implementation} 
+
+This chapter describes the practical implementation of the proposed UAV-based LoRa communication system. The goal is to establish a reliable long-range, low-power wireless communication link using an unmanned aerial vehicle (UAV) as a mobile communication platform. The implementation involves UAV hardware, LoRa modules, antenna design, integration of sensors, and the software platform for communication and control.  
+
+\section{UAV Platform}  
+The UAV acts as the aerial node that carries the LoRa transceiver. A quadcopter-type UAV is selected because of its high stability, ease of maneuverability, and payload capacity. The UAV is equipped with:  
+\begin{itemize}
+    \item Flight controller (for stability and navigation)  
+    \item GPS module (for position tracking)  
+    \item Power management system (battery and regulators)  
+    \item Onboard microcontroller for communication handling  
+\end{itemize}  
+The UAV platform provides the required mobility to extend the communication coverage of the LoRa network.  
+
+\section{LoRa Transceiver Module}  
+LoRa (Long Range) technology is a spread spectrum modulation technique derived from chirp spread spectrum (CSS). In this work, LoRa transceiver modules such as \textit{SX1276/SX1278} are used for experimentation. These modules offer:  
+\begin{itemize}
+    \item Frequency band: 433/868/915 MHz  
+    \item Communication range: up to several kilometers (depending on antenna and environment)  
+    \item Low power consumption, suitable for battery-operated UAVs  
+\end{itemize}  
+The LoRa module is interfaced with the UAV’s onboard microcontroller to transmit sensor data and control information to the ground station.  
+
+\section{Hardware Integration}  
+The UAV payload is carefully designed to integrate the LoRa transceiver, microcontroller, antenna, and power supply without exceeding weight limits. The integration steps include:  
+\begin{itemize}
+    \item Mounting the LoRa transceiver on the UAV frame  
+    \item Designing a lightweight antenna for efficient long-range transmission  
+    \item Interfacing sensors (temperature, humidity, GPS, etc.) to the microcontroller  
+    \item Ensuring electromagnetic compatibility between flight control signals and communication modules  \cite{Mertens2020}
+\end{itemize}  
+
+\section{Software Design}  
+The software system for UAV-based LoRa communication consists of two main parts:  
+\begin{itemize}
+    \item \textbf{Onboard software}: Runs on the microcontroller interfaced with the LoRa transceiver, responsible for packet formation, error checking, and communication with the ground station.  
+    \item \textbf{Ground station software}: Runs on a PC or embedded board, responsible for receiving LoRa packets, decoding data, and displaying it to the user.  
+\end{itemize}  
+The communication protocol ensures reliability by using acknowledgment packets and retransmission in case of packet loss.  \cite{MOYSIADIS2021102388}
+
+\section{System Testing}  
+The UAV–LoRa system is tested in different environments such as open fields and semi-urban areas to measure:  
+\begin{itemize}
+    \item Communication range and reliability  
+    \item Packet loss rate under mobility  
+    \item Power consumption during flight and data transmission  
+\end{itemize}  
+The test results are compared against theoretical coverage estimates to validate the effectiveness of the proposed system.  
